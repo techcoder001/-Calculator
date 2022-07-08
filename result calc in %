@@ -1,0 +1,13 @@
+print("Hello there!")
+print("Let's calculate your results in percentage")
+print("So let's begin by knowing your marks of each subject :)")
+a,b,c,d,e= (float(input("Enter ur marks in Science: ")), float(input("Enter ur marks in Maths: ")), float(input("Enter ur marks in SST: ")), float(input("Enter ur marks in English: ")), float(input("Enter ur marks in Hindi: ")))
+total=a+b+c+d+e
+fm=float(input("Enter total marks of which exam was held: "))
+fm1=fm*5
+pmarks= total/fm1*100
+print("Your result for term 2 is", pmarks, "%", ",Impressive!")
+print("Now let's calculate annual result.")
+t1= float(input("Enter ur term 1 percentage in numbers: "))
+annualres= pmarks+t1
+print("Your annual result is ", annualres/2, "%", "that's the fruit of your hardwork, ENJOYYYYY :)")
